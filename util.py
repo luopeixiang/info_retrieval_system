@@ -11,8 +11,8 @@ from Stopwords import Stopwords
 
 
 DATA_DIR = '/home/luo/HomeWork/news_retrieval/Data/cnn_samples'
-INDEX_FILE = "./docs_tf-idf_index.pkl"
-VOCAB_FILE = "./vocab.csv"
+INDEX_FILE = "./DATA/docs_tf-idf_index.pkl"
+VOCAB_FILE = "./DATA/vocab.csv"
 
 
 #STOPWORDS = stopwords.words('english')

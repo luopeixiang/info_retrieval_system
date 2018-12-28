@@ -22,6 +22,7 @@ doc_index_scores 以及 query_tokens 作为输入
 两个接口 对这个返回结果的方法处理不同
 """
 
+
 class Result(object):
 
     def __init__(self, doc_id, query_tokens, score, out):
@@ -31,15 +32,15 @@ class Result(object):
         self.out = out
 
         self.doc_token_sents, self.num_sents, self.num_tokens = self.init_doc_sents()
-        #需要重点标出的区域
+        # 需要重点标出的区域
         self.highlight_pos = self.get_pos()
         self.highlights = self.get_highlights()
 
     def init_doc_sents(self):
-        doc_path = join(DATA_DIR, str(self.doc_id)+'.story')
+        doc_path = join(DATA_DIR, str(self.doc_id) + '.story')
         document = doc(doc_path, return_sents_list=True)
         doc_sents = document.article + document.abstract
-        #返回文档中句子的长度  token的数量
+        # 返回文档中句子的长度  token的数量
         num_sents = len(doc_sents)
         doc_token_sents = list(map(preprocess, doc_sents))
 
@@ -52,9 +53,9 @@ class Result(object):
     def get_pos(self):
         highlight_pos = []
 
-        for sent_i,sent in enumerate(self.doc_token_sents):
+        for sent_i, sent in enumerate(self.doc_token_sents):
             word_i_list = []
-            for word_i,word in enumerate(sent):
+            for word_i, word in enumerate(sent):
                 if word in self.query_tokens:
                     word_i_list.append(word_i)
             if word_i_list:
@@ -67,7 +68,7 @@ class Result(object):
         print("相似度: ", self.score)
         print("搜索到的相关句子:")
         print('\n'.join(self.highlights))
-        print("-"*50)
+        print("-" * 50)
 
     def strong(self, word):
         if self.out == "terminal":
@@ -75,8 +76,8 @@ class Result(object):
             ENDC = '\033[0m'
             return OKGREEN + word + ENDC
         else:
-            return '<span style="color:blue;font-weight:bold">' + word + "</span>"
-
+            return '<span style="color:blue;font-weight:bold">' \
+                + word + "</span>"
 
     def get_highlights(self):
         highlights = []
@@ -84,12 +85,10 @@ class Result(object):
             for word_i in word_i_list:
                 words = self.doc_token_sents[sent_i]
                 words[word_i] = self.strong(words[word_i])
-                #import pdb;pdb.set_trace()
-            highlight = str(sent_i+1) + " " + " ".join(words)
+            highlight = str(sent_i + 1) + " " + " ".join(words)
             highlights.append(highlight)
 
         return highlights
-
 
 
 class Results(object):

@@ -1,0 +1,6 @@
+DATA
+__pycache__
+*.pkl
+*.csv
+
+
