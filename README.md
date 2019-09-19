@@ -1,60 +1,30 @@
-# info_retrieval_system
+![](imgs/0001.jpg)
 
-![a33fef724f62b85a4d7b881f41e0cdc8-0](imgs/a33fef724f62b85a4d7b881f41e0cdc8-0.jpg)
+![](imgs/0002.jpg)
 
-![a33fef724f62b85a4d7b881f41e0cdc8-1](imgs/a33fef724f62b85a4d7b881f41e0cdc8-1.jpg)
+![](imgs/0003.jpg)
 
-![a33fef724f62b85a4d7b881f41e0cdc8-2](imgs/a33fef724f62b85a4d7b881f41e0cdc8-2.jpg)
+![](imgs/0004.jpg)
 
-![a33fef724f62b85a4d7b881f41e0cdc8-3](imgs/a33fef724f62b85a4d7b881f41e0cdc8-3.jpg)
+![](imgs/0005.jpg)
 
+![](imgs/0006.jpg)
 
+![](imgs/0007.jpg)
 
-![a33fef724f62b85a4d7b881f41e0cdc8-4](imgs/a33fef724f62b85a4d7b881f41e0cdc8-4.jpg)
+![](imgs/0008.jpg)
 
+![](imgs/0009.jpg)
 
+![](imgs/0010.jpg)
 
+![](imgs/0011.jpg)
 
+![](imgs/0012.jpg)
 
-![a33fef724f62b85a4d7b881f41e0cdc8-5](imgs/a33fef724f62b85a4d7b881f41e0cdc8-5.jpg)
+![](imgs/0013.jpg)
 
+![](imgs/0014.jpg)
 
-
-![a33fef724f62b85a4d7b881f41e0cdc8-6](imgs/a33fef724f62b85a4d7b881f41e0cdc8-6.jpg)
-
-
-
-![a33fef724f62b85a4d7b881f41e0cdc8-7](imgs/a33fef724f62b85a4d7b881f41e0cdc8-7.jpg)
-
-
-
-![a33fef724f62b85a4d7b881f41e0cdc8-8](imgs/a33fef724f62b85a4d7b881f41e0cdc8-8.jpg)
-
-![a33fef724f62b85a4d7b881f41e0cdc8-9](imgs/a33fef724f62b85a4d7b881f41e0cdc8-9.jpg)
-
-
-
-
-
-![a33fef724f62b85a4d7b881f41e0cdc8-10](imgs/a33fef724f62b85a4d7b881f41e0cdc8-10.jpg)
-
-
-
-![a33fef724f62b85a4d7b881f41e0cdc8-11](imgs/a33fef724f62b85a4d7b881f41e0cdc8-11.jpg)
-
-
-
-![a33fef724f62b85a4d7b881f41e0cdc8-12](imgs/a33fef724f62b85a4d7b881f41e0cdc8-12.jpg)
-
-![a33fef724f62b85a4d7b881f41e0cdc8-13](imgs/a33fef724f62b85a4d7b881f41e0cdc8-13.jpg)
-
-![a33fef724f62b85a4d7b881f41e0cdc8-14](imgs/a33fef724f62b85a4d7b881f41e0cdc8-14.jpg)
-
-
-
-
-
-
-
-
+![](imgs/0015.jpg)
 
